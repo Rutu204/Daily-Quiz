@@ -1,0 +1,330 @@
+1. Jennie is a software developer in an MNC. In one of her projects, she wrote a program as:
+class TestQuestion {
+public static void main(String s[]) { Boolean a = new Boolean("false"); if(a) {
+System.out.printin("false");
+}
+else { System.out.printin("true");
+}
+}
+}
+What will be the output when the preceding program is compiled and executed?
+A. The program will display the output as: false
+B. The program will generate compilation error.
+C. The program will display the output as: True
+D. The program will throw a runtime exception.													ANSWER==>>"B"
+
+
+2. Jyoti is a software developer in an MNC. In one of her projects she wrote a program as:
+public class TestQuestion{
+public static void main(String[] args) { String str = "PQR";
+int len = str.length(); switch (len) {
+case 1: System.out.printIn("January"); break; case 2: System.out.printIn("February"); break; case 3:
+System.out.printIn("March"); break;
+default: System.out.printin({"Invalid month.");break;
+}
+}
+}
+What will be the output when the preceding program is compiled and executed?
+A. The program will display the output as: March
+B. The program will generate compilation error.
+C. The program will display the output as: January
+D. The program will throw a runtime exception.													ANSWER==>>"A"
+
+
+3. Kandy works as a Programmer for StrongNet Inc. She writes the following program:
+class Test19 {
+public int tester(String str) {
+if(str == null | | str.length{) == 0) { System.out.printIn("empty");
+return 0;
+}
+Else {
+System.out.printin("not empty"); return 1;
+}
+}
+public static void main(String ar[]) { Test19 ob = new Test19(); ob.tester("hi");
+ob.tester("");
+}
+}
+What will happen when she tries to compile and execute the preceding program?
+A. It will produce the output as: not empty empty not empty
+B. It will produce the output as: not empty
+C. It will give compilation error. 
+D. It will throw a runtime exception.														ANSWER==>>"C"
+
+
+4. Neha works as a programmer in the ABC Company and she has written the following program:
+public class Foo {
+public static void main(String s[]) { Integer i = new Integer(1) + new Integer(2);
+switch(i) {
+case 3: System.out.printIn("three"); break; default: System.out.printIn("other"); break;
+}
+}
+}
+What will be the output when the preceding programis compiled and executed?
+A. two 
+B. three 
+C. other 
+D.program will not compile’successfully:													ANSWER==>>"D"
+
+
+5. Imagine you work as a programmer in the ABC Company and you have written the following program:
+public class Foo {
+public static void main(String s[]) { String str = "null";
+if (str = null) { System.out.printin("null");
+}
+else (str.length() == 0) { System.out.printIn("zero");
+} else { System.out.printin("some");
+}
+}
+}
+What will be the output when the preceding program is compiled and executed?
+A. zero 
+B. sum 
+C. other 
+D.Program will not compile successfully														ANSWER==>>"D"
+
+
+
+6. Hardy works as a Programmer for Blue Net Inc. He writes the following program:
+public class Test { private String col;
+public String getcolor() { return col; } public void setcolor(String d)
+{ col=d;}
+public static void changecol{Test Col11,String col) { Col11 = new Test();
+Col11.setcolor{col);
+}
+public static void main({String[] args) { Test i = new Test();
+i. setcolor("Red"); Test it2 = new Test(); it2.setcolor("green");
+changecol{it2,"white"); i.setcolor("pink"); changecol{it2,"Orange"); System.out.printIn(i.getcolor());
+System.out.printin({it2.getcolor()});
+}
+}
+What will be the output when he tries to compile and execute the preceding program?
+A. It will display the output as: Orange green’
+B. It will display the output as: Red pink
+C. It will display the output as:green Orange
+D. It will display the output as: white Red													ANSWER==>>"A"
+
+
+
+7. Nancy works as a Programmer for White Inc. She writes the following program:
+class A {
+private int val;
+public void setVal{( int val) { this.val = val; } public int getVal{) { return val; }
+}
+class B { private A price;
+public void setPrice({ A price) { this.price= price; } public A getPrice() { return price; }
+}
+public class Test {
+public static void main{ String[] args) { B o = new B();
+Ai = new A(); int n=1;
+i. setVal(n); o.setPrice(i); o.getPrice().setVal{ 104);
+i = new A(); i.setVal(105); o.setPrice(i);
+System.out.printin( o.getPrice().getVal());
+}
+}
+What will happen when she tries to compile and execute the preceding program?
+A. It will produce the output as: 105
+B. It will produce the output as: 104
+C. It will give compilation error. 
+D. It will throw a runtime exception.														ANSWER==>>"A"
+
+
+
+8. Jude works as a Programmer for TimeNet Inc. She writes the following program:
+class First { private int val;
+public First{int val) { this.val=val;
+}
+public void setVal(int val) { this.val = val;
+}
+public int getVal{) { return val; }
+}
+public class C15 {
+static First fun(First f){ f=new First(100);
+return f;
+}
+public static void main{ String[] args) {
+First f = new First(345); System.out.print(f.getVal()+" "); First fl=fun(f);
+System.out.print(fl.getVal()+" "); f=fun(f1); System.out.print(fl.getVal{)+" ");
+}
+}
+What will happen when she tries to compile and execute the preceding program?
+A. It will produce the output as: 345 100 100
+B. It will produce the output as: 345 345 100
+C. It will produce the output as: 100 100 100
+D. It will generate a compilation error.													ANSWER==>>"A"
+
+
+
+9. Ria works as a Programmer for TimeNet Inc. She writes the following program:
+public class Test {
+static public void main(String rat[]) { for(int z=2 ; z<rat.length;z++) { System.out.print(rat[z] + "");
+}
+}
+}
+What will happen if she tries to execute the preceding program by writing the following command
+line argument? java Test 456
+A. It will display the output as: 6
+B. It will display the output as:456
+C. It will throw a runtime exception.
+D. It will compile and execute but does not display anything as output.										ANSWER==>>"D"
+ 
+
+
+10.  Sarah works as a Programmer for Globus Inc. She writes the following program:
+public class Ten {
+static public void main(String rock[]) { for{int q=rock.length;q>0;q--) { System.out.print(rock[q] +" ");
+}
+}
+}
+What will be the output if she tries to execute the preceding program by writing the following
+command line argument? java Ten 123
+A. It will throw a runtime exception-ArraylndexOutOfBoundsException.
+B. It will display the output as: 3 2 1
+C. It will display the output as: 3 2
+D. It will compile and execute successfully, but does not display anything as an output.							ANSWER==>>"D"
+
+
+
+11.  Peter works as a programmer in the ABC Company and has written the following program:
+public class MyClass {
+public static void main(String s[]) { int x 0;
+int y = 10;
+do {
+yo;
+++X;
+} while (x < 5); System.out.print(x + ","+ y);
+}
+}
+What will be the output when the preceding program is compiled and executed?
+A. zero 
+B. sum 
+C. other 
+D. Program will not compile successfully.													ANSWER==>>"D"
+
+
+
+12. Imagine you work as a programmer in the ABC Company and you have written the following
+program:
+class Next {
+public static void main(String s[]) { int x=12;
+while (x < 10) { x--;}
+System.out.print(x);
+}}
+What will be the output when the preceding program is compiled and executed?
+A. 11 
+B. 12 
+C. 23 
+D. Program will not compile successfully.													ANSWER==>>"B"
+
+
+
+13. Imagine you work as a programmer in the ABC Company and you have written the following program:
+class Test {
+public static void main(String s[]) { int x = 10;
+do {
+System.out.println{x--);
+}
+while(x>10);
+}
+}
+How many times will the value of x be printed after compilation and execution of the preceding
+program?
+A. more than 10 
+B. 1 
+C. 2 
+D. Program will not compile successfully.													ANSWER==>>"B"
+
+
+
+14. Imagine you work as a programmer in the ABC Company and you have written the following program:
+class Test {
+public static void main(String[] args) { for {int i = 0;i <=10;i++){
+if( i > 6) break;
+}
+System.out.printin(i);
+}
+}
+What will be the output after compilation and execution of the preceding program?
+A. 1 2 3 
+B. 1 2 3 4 
+C. 4 4 
+D. Program will not compile successfully.													ANSWER==>>"D"
+
+
+
+15. Hari is a software developer in an MNC. In one of his projects, he wrote a program as:
+class TestQuestion {
+public static void main(String s[]) { int num1 = 0102;
+int num2 = -10;
+int operation = num1 % num2; System.out.printIn(+operation);
+}
+}
+What will be the output when the preceding program is compiled and executed?
+A. The program will display the output as: 6
+B. The program will generate compilation error.
+C. The program will display the output as:-6
+D. The program will throw a runtime exception													ANSWER==>>"A"
+ 
+
+
+16. Uma is a student of computer science and has written a program as:
+public class TestQuestion {
+public static void main(String s[]) { boolean a;
+boolean p = false; boolean q = false; if(a = p == q) {
+System.out.printin("equal");
+}
+else
+System.out.printin("not-equal");
+}
+}
+What will be the output when the preceding code is compiled and executed?
+A. The program will display the output as: equal
+B. The program will generate compilation error.
+C. The program will display the output as: not-equal
+D. The program will throw a runtime exception.													ANSWER==>>"A"
+
+
+
+17. Jennie is a software developer in an MNC. In one of her projects, she wrote a program as:
+class TestQuestion {
+public static boolean funcA(int a) { boolean b = (a==10)?true:false; System.out.printin(b);
+return b;
+}
+public static void main(String args[]) { if(funcA(10) && funcA(5)) System.out.printIn("pass");
+}
+}
+What will be the output when the preceding program is compiled and executed?
+A. The program will display the output as: true
+B. The program will generate compilation error.
+C. The program will display the output as: pass
+D. The program will throw a runtime exception.													ANSWER==>>"A"
+
+
+
+18. In a popular workbook for programmers, a program was found written as:
+class TestQuestion {
+public static void main(String s[]) { Integer i1 = new Integer(10);
+Integer i2 = new Integer(10); System.out.printIn(i1==i2);
+System.out.printin(i1.hashCode() == i2.hashCode());
+}
+}
+What will be the output when the preceding program is compiled and executed?
+A. The program will display the output as: true true 
+B. The program will generate compilation error.
+C. The program will display the output as:true false
+D. The program will display the output as: false false												ANSWER==>>"B"
+
+
+
+19. Jennie is a software developer in an MNC. In one of her projects, she wrote a program as:
+class TestQuestion {
+public static void main(String s[]) { Integer i = new Integer(9); Integer j = new Integer(13);
+Integer k =i+j; // error prior to JDK 1.5 
+System.out.println (k);
+}
+}
+Which of the following reason is behind the successful execution of the preceding program?
+A. Overloading 
+B. Overriding 
+C. AUtoboxing 
+D. Casting																	ANSWER==>>"C"
